@@ -1,6 +1,5 @@
 // Simple math functions for testing
 const calculator = require('./calculator');
-// Extra comment for testing webhook
 
 
 // Generate a string to ensure the bundle has some size
