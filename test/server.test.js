@@ -18,9 +18,9 @@ describe('API Endpoints', () => {
       });
     
     expect(response.statusCode).toBe(200);
-    expect(response.body.result).toBe(8);
+    expect(response.body.result).toBe(8); 
   });
-
+//asdf
   test('POST /calculate multiplies numbers correctly', async () => {
     const response = await request(app)
       .post('/calculate')
